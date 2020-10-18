@@ -22,7 +22,7 @@ int kadne(int arr){
 
 
 
-mergeOverlapingSUb(vector<pair<int,int>>arr);
+void mergeOverlapingSUb(vector<pair<int,int>>arr);
 {
 	sort(arr,arr+n);
 	stack<pair<int,int>>s;
@@ -440,33 +440,4 @@ int height(node* root){
 
 
 
-
-map<string, pair<int,int>>m;
-
-
-for(i =0;i<str.size();++i){
-
-	if(map.find(str[i]) == m.end()){
-		m.insert({a, {i,i}});
-	}
-	else{
-		auto it = mp.find(a);
-		if(it != mp.end()){
-			it->second.second = i;
-		}
-	}
-	vactor<string> ls;
-	for(i =0; i<str.size();++i){
-
-		auto it = ls.find(s[i]);
-		int start = it->second.first;
-		int end = it->second.second;
-		string s;
-		while(start<=end){
-			s+=s[i];
-			auto 
-		}
-
-	}
-}
 
